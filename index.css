@@ -1,0 +1,23 @@
+#container {
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f7 10px ), repeating-linear-gradient( #444cf755, #444cf7 );
+    width: 4000px;
+    height: 4000px;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
+
+.square {
+    width: 46px;
+    height: 46px;
+    background-color: red;
+}
+
+.square:last-child {
+    width: 46px;
+    height: 46px;
+    background-color: red;
+    align-self: flex-end;
+}
