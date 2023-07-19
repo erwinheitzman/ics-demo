@@ -3,7 +3,7 @@
 npm i
 ```
 
-### Install
+### Run tests
 ```
 npm t
 ```
